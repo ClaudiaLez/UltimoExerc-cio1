@@ -1,0 +1,3 @@
+docker network create nomedarede
+docker run -d --network=nomedarede -p 80:80 nginx
+docker run -d --network=nomedarede   mysql
